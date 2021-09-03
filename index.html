@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Shopee</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="grid">
+                <div class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item separate"><a href="">Kênh người bán</a></li>
+                        <li class="header__navbar-item separate"><a href="">Trở thành Người bán shopee</a></li>
+                        <li class="header__navbar-item separate download"><a href="">Tải ứng dụng</a>
+                            <div class="header__QR">
+                                <a href=""><img src="./assets/img/QR.png" alt="" class="QR-img"></a>
+                                <ul class="QR--apps">
+                                    <li><a href=""><img src="./assets/img/appstore.png" alt="" class="app--download"></a></li>
+                                    <li><a href=""><img src="./assets/img/chplay.png" alt="" class="app--download"></a></li>
+                                    <li><a href=""><img src="./assets/img/appgallery.png" alt="" class="app--download"></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">Kết nối  <span><a href="" class="navbar--icon--link"><i class=" header__navbar--icon fab fa-facebook"></i></a>  <a href="" class="navbar--icon--link"><i class=" header__navbar--icon fab fa-instagram"></i></a></span></li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item separate2 notify">
+                            <a href="" class="header__navbar-notify">
+                                <i class=" header__navbar--icon far fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-name">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                                <img src="https://cf.shopee.vn/file/86773ac686448ddcbb60e3b454d2e1f0_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-content">
+                                                <div class="header__notify-title">Rần rần gói siêu Voucher chỉ từ 1K</div>
+                                                <div class="header__notify-dcr">💥 Mã Hoàn đến 100K Xu đơn 150K🌈 Đã có sẵn trong ví voucher của bạn🔔 Hiệu lực: 0H 01/09/2021 - 23H59 04/09/2021 👉 Số lượng có hạn - Dùng ngay bạn nhé!</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                                <img src="https://cf.shopee.vn/file/12d1172d9229f9051542f7839a0963ad_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-content">
+                                                <div class="header__notify-title">Gói siêu voucher chỉ từ 1k</div>
+                                                <div class="header__notify-dcr">💖 4 Mã Freeship đến 25K đơn từ 0Đ 😍 1 Mã giảm ngay 15K đơn từ 50K 🔥 1 Mã hoàn xu đến 20K đơn từ 100K 👉 Nhanh tay hốt về ngay!</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                                <img src="https://cf.shopee.vn/file/8a0d5881732b50ddc1e5257e3ab264d0_tn" alt="" class="header__notify-img">
+                                            <div class="header__notify-content">
+                                                <div class="header__notify-title">Hàng hiệu bất ngờ sale lớn!</div>
+                                                <div class="header__notify-dcr">💥Giảm cực sốc đến 50%🛒Deal thịnh hành từ Mall🎁Lưu thêm mã Freeship 0Đ😍9H mở sale - Đặt lịch vào ngay!</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item separate2"><a href=""><i class=" header__navbar--icon far fa-question-circle"></i> Trợ giúp</a></li>
+                        <li onclick="showRegisterTab()" class="header__navbar-item header__navbar-item--bold separate"><button class="btn-login">Đăng kí</button></li>
+                        <li onclick="showLoginTab()" class="header__navbar-item header__navbar-item--bold"><button class="btn-login">Đăng nhập</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modals"></div>
+</body>
+<script src="./assets/js/login.js"></script>
+</html>
